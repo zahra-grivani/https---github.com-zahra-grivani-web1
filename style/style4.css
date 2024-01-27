@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.parent{
+    position: absolute;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #8ace7c;
+    
+  }
+  
+
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 65px;
+    
+  }
+  
+  
+  .topnav a:hover {
+    background-color: #87b183;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #229736;
+    color: white;
+  }
+  
+  
+  .topnav input[type=text1] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 20px;
+    font-size: 17px;
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+                }
+            }
+            .parent5{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 600px;
+                height: 250px;
+                background-color: #76e088;
+                margin-top: 50px;
+                border-radius: 20px;
+                margin-left: 350px;
+            }
+            .child5{
+                font-size: xx-large;
+                padding: 20px;
+                
+            }
+            .button{
+                background-color: #36af4a;
+                border-radius:  10px;
+                border: solid #1f6b08 2px;
+                width: 100px;
+                height: 60px;
+                margin-left: 250px;
+            
+            }
+            a{
+                text-decoration: none;
+                color: rgb(141, 243, 141);
+            }
+           .para{
+            color: gray;
+            font-size: small;
+            margin-top: 10px;
+            margin-left: 380px;
+
+           }
+           .para2{
+            color: rgb(134, 148, 57);
+            font-size: large;
+            margin-top: 20px;
+            margin-left: 380px;
+           }
+           .tabel{
+            color: #1f6b08;
+            background-color: rgb(236, 216, 189);
+            margin-left: 365px;
+            margin-top: 20px;
+            width: 500px;
+            
+            
+           }
